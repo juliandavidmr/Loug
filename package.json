@@ -1,0 +1,38 @@
+{
+  "name": "loug",
+  "version": "1.0.0",
+  "description": "Console for debugging messages, errors and warnings in projects that are in development.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliandavidmr/Loug.git"
+  },
+  "keywords": [
+    "logger",
+    "warnings",
+    "console",
+    "debug",
+    "prod",
+    "dev"
+  ],
+  "author": "@juliandavidmr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliandavidmr/Loug/issues"
+  },
+  "homepage": "https://github.com/juliandavidmr/Loug#readme",
+  "dependencies": {
+    "read-pkg": "^2.0.0"
+  },
+  "files": [
+    "lib/",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "production": true
+}
