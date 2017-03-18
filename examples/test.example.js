@@ -1,3 +1,6 @@
+// $ cd examples
+// $ node test.example.js
+
 var loug = require('../index');
 loug.set(false);
 

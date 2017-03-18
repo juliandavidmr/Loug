@@ -4,35 +4,51 @@ Console for debugging messages, errors and warnings in projects that are in deve
 
 ## Installation
 ```bash
-$ [sudo] npm install --save loug
+$ npm install --save loug
 ```
 
 Add the `production` key in your `package.json`.
-```json
+```js
 {
   "name": "testing",
   "version": "3.2.1",
   "description": "description testing",
   "main": "index.js",
   "scripts": {
-    "test": ""
   },
   "keywords": [
   ],
   "dependencies": {
   },
-  "production": false    // This key
+  "production": false    //=> This key
 }
 ```
-
 
 The key `production` is boolean type, `true` is production.
 
 When the key is set to `true` the messages are not displayed. The opposite happens when it is `false`.
 
 ## Usage
+`"production": false`
 ```js
 var loug = require('loug');
+
+loug("Hello")
+//=> Hello
+loug.warn("an advert")
+//=> an advert
+loug.ignore("Any argument or message")
+//=> Any argument or message
+```
+
+`"production": true`
+```js
+var loug = require('loug');
+
+loug("Hello")
+loug.warn("an advert")
+loug.ignore("Any argument or message")
+//=> Any argument or message
 ```
 
 ## API
@@ -64,3 +80,6 @@ var loug = require('loug');
 
 loug.set(true);
 ```
+
+### LICENCE
+MIT
