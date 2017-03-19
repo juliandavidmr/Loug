@@ -73,7 +73,7 @@ Logs the message as if you called `console.log`. Logs the message in production 
 
 
 ### **Ignore all**
-Ignore the 'production' key and enable log, error, warn, dir and info. Only applies to the current document.
+Ignore the `production` key and enable log, error, warn, dir and info. Only applies to the current document.
 
 ```js
 var loug = require('loug');

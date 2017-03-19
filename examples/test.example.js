@@ -2,7 +2,7 @@
 // $ node test.example.js
 
 var loug = require('../index');
-loug.set(false);
+loug.set(false)
 
 loug("Hello")
 loug.info("Mensaje de informacion");
