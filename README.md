@@ -1,5 +1,7 @@
 # Loug
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliandavidmr/Loug.svg)](https://greenkeeper.io/)
+
 Console for debugging messages, errors and warnings in projects that are in development.
 
 ## Installation
